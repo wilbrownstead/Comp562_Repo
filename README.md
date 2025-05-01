@@ -1,3 +1,5 @@
+***Overview***
+
 Code Repository for the final project submission of William Brownstead, Grayson Clark, Alyssa Zhao, and Connor Hall for UNC's COMP562 class.
 
 Also featured is the PDF of the final report and a copy of our extra credit presentation slides. 
@@ -92,6 +94,7 @@ Unfortunately, supplying the full 300,000 spectra dataset is impossible due to t
 ---
 
 ***Acknowledgements***
+
 The following papers and their respective authors aided greatly in our ability to produce this model:
 - Zorzan, S., et al. (2025). A machine learning–ready data set for exoplanet atmospheric retrieval. The Astrophysical Journal Supplement Series, 277 (2), article 38. https://doi.org/10.3847/1538-4365/adb03a.
 - Kopparapu, R. K., Ramirez, R., Kasting, J. F., et al. (2013). Habitable zones around main-sequence stars: New estimates. The Astrophysical Journal, 770, 82.
