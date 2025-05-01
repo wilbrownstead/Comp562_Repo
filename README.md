@@ -30,13 +30,13 @@ to your local path.
 Both partial datasets provided can be found at the link below. Please read through this section before downloading any data.
 - https://gofile.io/d/CM3QPs
 
-An .npy file containing 30 thousand spectra files (~1.8GB)
-- It is recommended that you use this file for running the CNN as a demo. This small of a dataset will not yield good results, but it does not take up a ton of storage and can be handled relatively quickly by the model.
+1. An .npy file containing 30 thousand spectra files (~1.8GB)
+   - It is recommended that you use this file for running the CNN as a demo. This small of a dataset will not yield good results, but it does not take up a ton of storage and can be handled relatively quickly by the model.  
 
-A second .npy file containing 121,000 spectra files (~7.4GB)
-- The corresponding PSG models .csv file must be downloaded as well (~63mb)
-- This is only recommended for use if you have plenty of storage on your computer and a lot of time on your hands. This data set will still not yield great results, but it will be a massive step up from the previous two.
-- Expect each full run of the model to take at least 15 minutes per gas, but could take much longer depending on the build and age of your computer.
+2. A second .npy file containing 121,000 spectra files (~7.4GB)
+   - The corresponding PSG models .csv file must be downloaded as well (~63mb)
+   - This is only recommended for use if you have plenty of storage on your computer and a lot of time on your hands. This data set will still not yield great results, but it will be a massive step up from the previous two.
+   - Expect each full run of the model to take at least 15 minutes per gas, but could take much longer depending on the build and age of your computer.  
 
 Unfortunately, supplying the full 300,000 spectra dataset is impossible due to the fact that it is over 180GB. If you would like to download a larger dataset for yourself, you can find the full 3.1 million planet dataset here: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/FDL/nph-fdl?psg. Instructions and scripts for downloading the dataset can be found here: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/FDL/nph-fdl?psg.
 
