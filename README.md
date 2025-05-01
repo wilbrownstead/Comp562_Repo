@@ -27,7 +27,7 @@ to your local path.
 
 ***Datasets for CNN***
 
-Both partial datasets provided can be found in the link below. Please read through this section before downloading any data.
+Both partial datasets provided can be found at the link below. Please read through this section before downloading any data.
 - https://gofile.io/d/CM3QPs
 
 An .npy file containing 30 thousand spectra files (~1.8GB)
