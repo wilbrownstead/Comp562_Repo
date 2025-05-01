@@ -54,7 +54,15 @@ Unfortunately, supplying the full 300,000 spectra dataset is impossible due to t
 
 4. After doing this, and installing all dependencies (requirements.txt coming soon), the model should be fully good to go.
 
+---
+
 ***DISCLAIMER: This model is intended to be run on a computer with an independent GPU as it utilizes PyTorch's GradScaler() and autocast for computing speed. If your system does not have a GPU, you will have to remove these features for the model to run properly. This task is relatively straightforward, but if you cannot figure out how to do it and need a version that only utilizes the CPU, email me at connorbh@ad.unc.edu and I can provide that for you.***
 
 ***Training this model is not fast. Due to the complexity and large number of trainable parameters that this CNN utilizes, even on a high-end GPU, this model can take upwards of 90 minutes to train a 300k planet data set on a singular gas. Without access to a GPU, this could take anywhere from 30x to 100x longer (rough estimate). For this reason, it is not recommended to use large datasets unless you are sure your system can handle it.***
+
+---
+***FIle and Directory Descriptions***
+
+- data/ -- Optional directory for storing planet spectra data and PSG models. Contains Wavelengths.csv, which is necessary for the model to preprocess the data.
+- 
 
