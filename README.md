@@ -64,17 +64,29 @@ Unfortunately, supplying the full 300,000 spectra dataset is impossible due to t
 ***FIle and Directory Glossary***
 
 - **CNN-evaluation-metrics/** -- Where the gas_model_metrics.csv file is stored after running spectroscopy-cnn.ipynb. Currently contains a table of the MSE and R^2 scores for each gas abundance from our final run.
+- 
 - **data/** -- Optional directory for storing planet spectra data and PSG models. Contains Wavelengths.csv, which is necessary for the model to preprocess the data.
+- 
 - **gas_histograms/** -- Contains histogram plots showcasing the distribution of predictions made for a single planet after 600 forward passes with monte carlo dropout.
+- 
 - **gas_plots/** -- Where the predictions vs actual plots for each gas are stored after running spectroscopy-cnn.ipynb. Currently contains the most recent plots from our last run.
+- 
 - **saved-models/** -- Where the best models are stored for each gas after training. Rather than training yourself, can load these and just run validation. Each time the model is trained on a gas, these will be replaced.
+- 
 - **tuning-results/** -- Contains .csv files holding data from hyperparameter tuning. Has no real purpose other than to show how different hyperparameters affected the model.
+- 
 - **562_Project_Final_Report.pdf** -- The PDF document of our final report for this project.
+- 
 - **Comp 562 Presentation.pdf** -- The PDF of our final presentation slides for this project.
+- 
 - **K-NN_test.ipynb** -- Notebook containing the code for our K-Nearest Neighbors model for determining planet habitability relative to Earth.
+- 
 - **README.md** -- You are here
+- 
 - **combined_models.csv** -- A .csv file containing PSG model data for 10k planets to be used in demoing the K-Nearest Neighbors model.
+- 
 - **spectra-nn-HwO.ipynb** -- A detailed notebook containing the CNN for H2O only. Goes into much more detail for model evaluation with many more plots and metrics. There was one of these made for each gas, but adding all of them to the repo would be redundant.
+- 
 - **spectroscopy-cnn.ipynb** -- The complete notebook for our CNN. Can be used to predict a singular gas, or all 12. Less modular and detailed than the individual models, but more efficient if multiple consecutive runs are desired.
 
 ---
