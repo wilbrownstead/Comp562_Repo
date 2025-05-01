@@ -12,8 +12,8 @@ kappa	gamma1	gamma2	alpha	beta planet_surface_temperature_Kelvin
 H2O	CO2	O2	N2	CH4	N2O	CO	O3	SO2	NH3	C2H6	NO2	  
 
 planet_atmospheres_avg_mol_wgt	planets_mean_surface_albedo.  
-/n
 
+---
 
 ***K-NN Test Code and Usage***
 
@@ -21,7 +21,7 @@ In order to execute the K-NN_test code, download this file (9.5 MB) and change t
 ```df = pd.read_csv('/Users/William/562Project/combined_models.csv')``` 
 to your local path.
 
-
+---
 
 ***Datasets for CNN***
 
@@ -38,7 +38,7 @@ A second .npy file containing 121,000 spectra files (~7.4GB)
 
 Unfortunately, supplying the full 300,000 spectra dataset is impossible due to the fact that it is over 180GB. If you would like to download a larger dataset for yourself, you can find the full 3.1 million planet dataset here: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/FDL/nph-fdl?psg. Instructions and scripts for downloading the dataset can be found here: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/FDL/nph-fdl?psg.
 
-
+---
 
 ***Steps for running the CNN***
 
