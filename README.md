@@ -12,8 +12,8 @@ kappa	gamma1	gamma2	alpha	beta planet_surface_temperature_Kelvin
 H2O	CO2	O2	N2	CH4	N2O	CO	O3	SO2	NH3	C2H6	NO2	  
 
 planet_atmospheres_avg_mol_wgt	planets_mean_surface_albedo.  
+/n
 
-\n
 
 ***K-NN Test Code and Usage***
 
