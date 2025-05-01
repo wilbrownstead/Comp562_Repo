@@ -17,3 +17,6 @@ planet_atmospheres_avg_mol_wgt	planets_mean_surface_albedo.
 In order to execute the K-NN_test code, download this file (9.5 MB) and change the line: 
 ```df = pd.read_csv('/Users/William/562Project/combined_models.csv')``` 
 to your local path.
+
+A .npy file containing 10 thousand spectra files can be downloaded at: https://gofile.io/d/IzQGtI
+It is 3.1 GB and will not yield good results when trained on the CNN, but it is meant as a demo. A large enough dataset to yield results consistent with our project is too large and would take to much time to expect a grader to be able to run.
