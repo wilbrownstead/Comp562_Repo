@@ -19,4 +19,4 @@ In order to execute the K-NN_test code, download this file (9.5 MB) and change t
 to your local path.
 
 A .npy file containing 10 thousand spectra files can be downloaded at: https://gofile.io/d/IzQGtI
-It is 3.1 GB and will not yield good results when trained on the CNN, but it is meant as a demo. A large enough dataset to yield results consistent with our project is too large and would take to much time to expect a grader to be able to run.
+It is 3.1 GB and will not yield good results when used to train/test the CNN, but it is meant as a demo. A large enough dataset to yield results consistent with our project is too large and would take to much time to expect a grader to be able to run.
